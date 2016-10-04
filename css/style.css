@@ -513,6 +513,14 @@ textarea {
   padding: 0;
 }
 
+.p-2 {
+  padding: 2px;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
 .p-12 {
   padding: 12px;
 }
@@ -562,6 +570,14 @@ textarea {
 
 .pt-24 {
   padding-top: 24px;
+}
+
+
+.mr-8 {
+  margin-right: 8px;
+}
+.mr-12 {
+  margin-right: 12px;
 }
 
 .mb-24 {
@@ -679,11 +695,32 @@ textarea {
 .logo a {
   line-height: 64px;
   float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #484848;
+  font-weight: 200;
+  font-size: 1.2em;
 }
 
 .main-nav li a {
   line-height: 64px;
 }
+
+.main-nav a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.nav-item-like .like-count {
+  background: #ff0c79;
+  border-radius: 8px;
+  color: #fff;
+  font-style: normal;
+}
+
+/*
+ * Detail
+*/
 
 .shot-image {
   background: #ffffff;
