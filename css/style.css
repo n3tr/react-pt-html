@@ -481,8 +481,23 @@ textarea {
   float: left;
 }
 
+.col-5 {
+  width: 41.67%;
+  float: left;
+}
+
 .col-6 {
   width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.67%;
   float: left;
 }
 
@@ -496,6 +511,14 @@ textarea {
 
 .p-0 {
   padding: 0;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.p-24 {
+  padding: 24px;
 }
 
 .px-4 {
@@ -521,6 +544,28 @@ textarea {
 .px-24 {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 /*
@@ -638,4 +683,81 @@ textarea {
 
 .main-nav li a {
   line-height: 64px;
+}
+
+.shot-image {
+  background: #ffffff;
+}
+
+.shot-image img {
+  width: 100%;
+  display: block;
+}
+
+.user-profile {
+  background: #ffffff;
+}
+
+.user-avatar {
+  display: block;
+  text-align: center;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.user-info {
+  text-align: center;
+}
+
+.user-info .title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.user-info .bio {
+  margin-top: 0;
+  color: #484848;
+}
+
+.shot-action {
+  background: #ffffff;
+}
+
+.shot-action .like-btn {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: #ccc;
+
+  transition: all 0.2s ease;
+}
+
+.shot-action .like-btn .fa {
+  color: #aaa;
+  font-size: 1.2em;
+  padding-right: 8px;
+}
+
+.shot-action .like-btn.liked {
+  background-color: #ff0c79;
+  border: 1px solid #ff0c79;
+  color: #fff;
+}
+
+.shot-action .like-btn.liked .fa {
+  color: #fff;
+}
+
+.shot-action .like-btn.liked:hover {
+  background: #e40b6c;
+}
+
+.shot-action .like-btn:hover {
+  background: #fafafa;
 }
